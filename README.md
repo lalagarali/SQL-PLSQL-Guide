@@ -3,4 +3,6 @@
 ### 1. Introduction to SQL and PL/SQL
 SQL (Structured Query Language) is the standard language used for managing and manipulating databases. 
 
+![image](https://github.com/user-attachments/assets/ba989f99-6e85-4813-9cf5-d4dbfca66532)
+
 PL/SQL (Procedural Language/SQL) is an extension of SQL used for writing complex queries and procedures, adding procedural logic to SQL.
