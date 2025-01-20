@@ -1,12 +1,21 @@
 # SQL-PLSQL-Guide
- SQL and PL/SQL, from beginner to advanced concepts. Perfect for data professionals and enthusiasts looking to enhance their database management and programming skills.
+
 ### 1. Introduction
 
+**What is Data?**
 
-*What is SQL?* SQL (Structured Query Language) is the standard language used for managing and manipulating databases.
+![image](https://github.com/user-attachments/assets/92a6b470-d97c-416a-85a3-dc5c945b202b)
+
+**Data** is raw facts or figures.
+
+**Information** is processed data that is meaningful.
+
+**Knowledge** is understanding gained from information.
+
+**What is SQL?** SQL (Structured Query Language) is the standard language used for managing and manipulating databases.
 
 ![image](https://github.com/user-attachments/assets/ba989f99-6e85-4813-9cf5-d4dbfca66532)
 
-*What is PL/SQL?* PL/SQL (Procedural Language/SQL) is an extension of SQL used for writing complex queries and procedures, adding procedural logic to SQL.
+**What is PL/SQL?** PL/SQL (Procedural Language/SQL) is an extension of SQL used for writing complex queries and procedures, adding procedural logic to SQL.
 
 ![image](https://github.com/user-attachments/assets/3f1e3e40-2758-4960-9d79-2d6c788b9f58)
