@@ -4,7 +4,7 @@
 1. [Introduction](#introduction)
 2. [Oracle SQL: Basic Elements](#oracle-sql-basic-elements)
 
-### 1. Introduction
+## Introduction
 
 **What is Data?**
 
@@ -46,7 +46,7 @@
 
 ## Oracle SQL: Basic Elements
 
-• **Data Types**
+**Data Types**
 
 | **Data Type**  | **Description**                                                                                                          |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------|
