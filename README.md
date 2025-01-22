@@ -20,6 +20,18 @@
 
 ![image](https://raw.githubusercontent.com/lalagarali/SQL-PLSQL-Guide/refs/heads/main/IMG_6041.jpeg)
 
+**What is Database?**
+
+**Database**: Stores structured data for daily transactions and operations.
+
+**Dataflow** Represents how data moves and transforms between systems.
+
+**Data Lake**: A large, raw data storage system that holds unstructured and structured data.
+
+**Data Mart**: A smaller, focused version of a data warehouse, tailored to specific business needs.
+
+**Data Warehouse**: A central repository for integrated, structured data designed for analysis and reporting.
+
 **What is SQL?** SQL (Structured Query Language) is the standard language used for managing and manipulating databases.
 
 ![image](https://github.com/user-attachments/assets/ba989f99-6e85-4813-9cf5-d4dbfca66532)
