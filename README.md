@@ -45,3 +45,23 @@
 ![image](https://github.com/user-attachments/assets/3f1e3e40-2758-4960-9d79-2d6c788b9f58)
 
 ## Oracle SQL: Basic Elements
+
+• **Data Types**
+
+
+• Data Type Comparison Rules
+• Literals
+• Format Models
+• Nulls
+• Comments
+• Database Objects
+• Database Object Names and Qualifiers
+• Syntax for Schema Objects and Parts in SQL Statements
+
+
+
+
+
+
+
+
