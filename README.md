@@ -24,8 +24,6 @@
 
 **Database**: Stores structured data for daily transactions and operations.
 
-**Dataflow** Represents how data moves and transforms between systems.
-
 **Data Lake**: A large, raw data storage system that holds unstructured and structured data.
 
 **Data Mart**: A smaller, focused version of a data warehouse, tailored to specific business needs.
