@@ -1,6 +1,6 @@
 # SQL-PLSQL-Guide
 
-## Table of Contents
+## 📚 Table of Contents
 1. [Introduction](#introduction)
 2. [SQL: create](#sql-create)
 
