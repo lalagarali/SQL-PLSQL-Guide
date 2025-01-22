@@ -12,7 +12,9 @@
 
 **Knowledge** is understanding gained from information.
 
-**What is dataset?** A dataset is a collection of related data organized in a structured format, often in rows and columns, like a table. m
+**What is dataset?** A dataset is a collection of related data organized in a structured format, often in rows and columns, like a table.
+
+
 
 **What is Big Data?** Big data is a term used to describe extremely large datasets that are difficult to store, process, and analyze using traditional methods due to their size, speed, and variety.
 
