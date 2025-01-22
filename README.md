@@ -48,37 +48,35 @@
 
 **Data Types**
 
-| **Data Type**  | **Description**                                                                                                          |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| CHAR                             | Fixed-length character data type (1-2000 characters).                                                                    |
-| VARCHAR2                         | Variable-length character data type (1-4000 characters).                                                                  |
-| NCHAR                            | Fixed-length Unicode character data type (1-2000 characters).                                                            |
-| NVARCHAR2                        | Variable-length Unicode character data type (1-4000 characters).                                                          |
-| CLOB                             | Character large object data type for storing large text data.                                                             |
-| NCLOB                            | Unicode character large object data type (Unicode version of CLOB).                                                       |
-| NUMBER                           | Numeric data type (for both integer and floating-point numbers).                                                           |
-| INTEGER                          | Integer data type (a smaller version of NUMBER(38)).                                                                       |
-| DECIMAL                          | Used for fixed-point numbers (e.g., DECIMAL(10,2)).                                                                        |
-| FLOAT                            | Numeric data type for floating-point numbers.                                                                             |
-| BINARY_FLOAT                     | Oracle-specific implementation of the FLOAT data type (4-byte representation).                                            |
-| BINARY_DOUBLE                    | Oracle-specific implementation of the DOUBLE data type (8-byte representation).                                          |
-| DATE                             | Stores date and time data (from January 1, 4712 BC).                                                                       |
-| TIMESTAMP                        | Date and time data with precision up to fractional seconds.                                                                |
-| TIMESTAMP WITH TIME ZONE         | Stores date, time, and time zone information.                                                                              |
-| TIMESTAMP WITH LOCAL TIME ZONE   | Stores date, time, and local time zone information.                                                                       |
-| INTERVAL YEAR TO MONTH           | Stores the interval between two dates in terms of years and months.                                                        |
-| INTERVAL DAY TO SECOND           | Stores the interval between two dates in terms of days and seconds.                                                        |
-| RAW                              | Used to store binary data (e.g., BLOB or image data).                                                                     |
-| LONG RAW                         | Used to store large binary data, but is deprecated in newer implementations.                                               |
-| BLOB                             | Binary Large Object (for storing large binary data such as images and audio files).                                       |
-| BFILE                            | Used to store external files in the file system.                                                                           |
-| LONG                             | Deprecated, used to store large amounts of character data (up to 2 GB).                                                   |
-| ROWID                            | Stores the unique row ID of a table (internal Oracle representation of a row).                                            |
-| UROWID                           | Universal Row ID for ROWID in cluster and partitioned tables.                                                             |
-| XMLTYPE                          | Used to store XML data.                                                                                                   |
-| ANYTYPE                          | Used to store any type of data (a generic data type).                                                                     |
-| ANYDATA                          | Used to store data of any type, allows for dynamic handling of different data types.                                      |
-
+| **Data Type** | **Description**     |
+|---------------|---------------------|
+| CHAR          | Fixed-length character data (1-2000 characters).     |
+| VARCHAR2      | Variable-length character data (1-4000 characters).  |
+| NCHAR         | Fixed-length Unicode character data (1-2000 chars). |
+| NVARCHAR2     | Variable-length Unicode character data (1-4000 chars).|
+| CLOB          | Character large object for large text storage.      |
+| NCLOB         | Unicode CLOB data type.                             |
+| NUMBER        | Numeric data type (integer, floating-point).         |
+| INTEGER       | Smaller version of NUMBER (38).                     |
+| DECIMAL       | Fixed-point numbers (e.g., DECIMAL(10,2)).           |
+| FLOAT         | Floating-point numbers.                              |
+| BINARY_FLOAT  | Oracle-specific FLOAT (4-byte).                      |
+| BINARY_DOUBLE | Oracle-specific DOUBLE (8-byte).                     |
+| DATE          | Date and time storage.                              |
+| TIMESTAMP     | Date and time with fractional seconds.               |
+| TIMESTAMP TZ  | Date, time, and time zone info.                      |
+| INTERVAL YEAR-MONTH | Interval between two dates (years and months). |
+| INTERVAL DAY-SECOND | Interval between two dates (days and seconds). |
+| RAW           | Used to store binary data (e.g., BLOB, image).       |
+| LONG RAW      | Deprecated; for large binary data.                   |
+| BLOB          | Binary Large Object (large binary data).             |
+| BFILE         | External file storage.                               |
+| LONG          | Deprecated; large character data (up to 2 GB).       |
+| ROWID         | Unique row ID of a table.                            |
+| UROWID        | Universal Row ID for partitioned tables.             |
+| XMLTYPE       | Stores XML data.                                     |
+| ANYTYPE       | Generic data type for any type of data.              |
+| ANYDATA       | Stores any type of data dynamically.                 |
 
 • Data Type Comparison Rules
 • Literals
