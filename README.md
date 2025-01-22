@@ -2,19 +2,7 @@
 
 ## 📚 Table of Contents
 1. [Introduction](#introduction)
-2. [SQL: create](#sql-create)
-
-
-
-
-
-
-
-
-
-
-
-
+2. [Oracle SQL: Basic Elements](#oracle-sql-basic-elements)
 
 ### 1. Introduction
 
@@ -56,4 +44,4 @@
 
 ![image](https://github.com/user-attachments/assets/3f1e3e40-2758-4960-9d79-2d6c788b9f58)
 
-##  SQL: create
+## Oracle SQL: Basic Elements
