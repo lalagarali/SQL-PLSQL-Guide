@@ -50,18 +50,18 @@
 
 | **Data Type** | **Description**     |
 |---------------|---------------------|
-| CHAR          | Fixed-length character data (1-2000 characters).     |
-| VARCHAR2      | Variable-length character data (1-4000 characters).  |
-| NCHAR         | Fixed-length Unicode character data (1-2000 chars). |
-| NVARCHAR2     | Variable-length Unicode character data (1-4000 chars).|
+| CHAR          | Fixed-length character data.|
+| VARCHAR2      | Variable-length character data.  |
+| NCHAR         | Fixed-length Unicode character data |
+| NVARCHAR2     | Variable-length Unicode character data.|
 | CLOB          | Character large object for large text storage.      |
 | NCLOB         | Unicode CLOB data type.                             |
-| NUMBER        | Numeric data type (integer, floating-point).         |
+| NUMBER        | Numeric data type.         |
 | INTEGER       | Smaller version of NUMBER (38).                     |
 | DECIMAL       | Fixed-point numbers (e.g., DECIMAL(10,2)).           |
 | FLOAT         | Floating-point numbers.                              |
-| BINARY_FLOAT  | Oracle-specific FLOAT (4-byte).                      |
-| BINARY_DOUBLE | Oracle-specific DOUBLE (8-byte).                     |
+| BINARY_FLOAT  | Oracle-specific FLOAT.                      |
+| BINARY_DOUBLE | Oracle-specific DOUBLE.                     |
 | DATE          | Date and time storage.                              |
 | TIMESTAMP     | Date and time with fractional seconds.               |
 | TIMESTAMP TZ  | Date, time, and time zone info.                      |
