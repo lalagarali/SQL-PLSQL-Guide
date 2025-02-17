@@ -78,6 +78,34 @@
 | ANYTYPE       | Generic data type for any type of data.              |
 | ANYDATA       | Stores any type of data dynamically.                 |
 
+SQL Table Creation with All Oracle Data Types
+
+The following SQL script creates a table named all_oracle_data_types that includes various Oracle SQL data types, with realistic column names and example values.
+
+CREATE TABLE all_oracle_data_types (
+    customer_name VARCHAR2(50),  -- Customer's full name
+    gender CHAR(1),  -- Gender ('M' for Male, 'F' for Female)
+    customer_id NUMBER,  -- Unique customer identifier
+    age INTEGER,  -- Age of the customer
+    balance FLOAT,  -- Account balance
+    annual_salary DOUBLE PRECISION,  -- Annual salary
+    join_date DATE,  -- Date when the customer joined
+    last_purchase TIMESTAMP,  -- Last purchase timestamp
+    time_difference INTERVAL DAY TO SECOND,  -- Time interval example
+    bio CLOB,  -- Large text data (e.g., biography)
+    profile_picture BLOB,  -- Binary data (e.g., profile picture)
+    transaction_id RAW(16),  -- Unique transaction ID
+    description LONG,  -- Long text description (deprecated, but still supported)
+    country_code NCHAR(5),  -- Country code (Unicode)
+    preferred_language NVARCHAR2(20),  -- Preferred language (Unicode)
+    customer_data XMLTYPE,  -- XML formatted customer data
+    is_active BOOLEAN,  -- Boolean value indicating active status (PL/SQL only)
+    height BINARY_FLOAT,  -- Floating-point value (32-bit)
+    weight BINARY_DOUBLE,  -- Floating-point value (64-bit)
+    row_id UROWID  -- Universal row ID
+);
+
+
 • Data Type Comparison Rules
 • Literals
 • Format Models
