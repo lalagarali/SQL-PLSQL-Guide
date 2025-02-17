@@ -105,7 +105,7 @@ CREATE TABLE all_oracle_data_types (
     weight BINARY_DOUBLE,  -- Floating-point value (64-bit)
     row_id UROWID  -- Universal row ID
 );
-
+**
 
 • Data Type Comparison Rules
 • Literals
