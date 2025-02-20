@@ -3,7 +3,7 @@
 ## 📚 Table of Contents
 1. [Introduction](#introduction)
 2. [Oracle SQL: Basic Elements](#oracle-sql-basic-elements)
-
+3. [Oracle SQL: Types of SQL Statements](#oracle-sql-types-of-sql-statements)
 ## Introduction
 
 **What is Data?**
@@ -116,9 +116,21 @@ CREATE TABLE all_oracle_data_types (
 • Database Object Names and Qualifiers
 • Syntax for Schema Objects and Parts in SQL Statements
 
+## Oracle SQL: Types of SQL Statements
 
+The lists in the following sections provide a functional summary of SQL statements and are divided into these categories:
 
+• Data Definition Language (DDL) Statements
 
+• Data Manipulation Language (DML) Statements
+
+• Transaction Control Statements
+
+• Session Control Statements
+
+• System Control Statement
+
+• Embedded SQL Statements
 
 
 
