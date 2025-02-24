@@ -78,9 +78,7 @@
 | ANYTYPE       | Generic data type for any type of data.              |
 | ANYDATA       | Stores any type of data dynamically.                 |
 
-SQL Table Creation with All Oracle Data Types
-
-The following SQL script creates a table named all_oracle_data_types that includes various Oracle SQL data types, with realistic column names and example values.
+SQL Table Creation with All Oracle Data Types:
 
 ```sql
 CREATE TABLE all_oracle_data_types (
@@ -107,9 +105,29 @@ CREATE TABLE all_oracle_data_types (
 );
 ```
 
-• Data Type Comparison Rules
 • Literals
+
+The terms literal and constant value are synonymous and refer to a fixed data value. For example, 'JACK', 'BLUE ISLAND', and '101' are all character literals; 5001 is a numeric literal. Character literals are enclosed in single quotation marks so that Oracle can distinguish them
+from schema object names. This section contains these topics:
+
+• Text Literals
+
+| **Prefix / Notation** | **SQL Name** | **Description** | **Example** | **Result** |
+|-----------------------|--------------|-----------------|-------------|------------|
+| **'...'**             | Character String Literal | Used to create a simple text literal. | `SELECT 'Loan approved' FROM dual;` | `Loan approved` |
+| **N'...'**            | National Character Literal | Used to store Unicode text. | `SELECT N'Lale Qarali' FROM dual;` | `Lale Qarali` |
+| **q'...'**            | Alternative Quoting Mechanism | Allows using `'` and `"` inside string literals easily. | `SELECT q'[Customer's name: 'Lale Qarali']' FROM dual;` | `Customer's name: 'Lale Qarali'` |
+| **Q'...'**            | Alternative Quoting Mechanism (Uppercase version) | Same as `q'...'`, alternative notation. | `SELECT Q'{Slogan: "Your trust is our value"}' FROM dual;` | `Slogan: "Your trust is our value"` |
+| **c'...'**            | Character Literal Prefix | Used to define character-type literals. | `SELECT c'Mastercard' AS Card_Type FROM dual;` | `Mastercard` |
+
+• Numeric Literals
+• Datetime Literals
+• Interval Literals 
+
 • Format Models
+
+A format model is a character literal that describes the format of datetime or numeric data stored in a character string.
+
 • Nulls
 • Comments
 • Database Objects
