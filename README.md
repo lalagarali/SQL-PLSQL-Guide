@@ -105,10 +105,7 @@ CREATE TABLE all_oracle_data_types (
 );
 ```
 
-• Literals
-
-The terms literal and constant value are synonymous and refer to a fixed data value. For example, 'JACK', 'BLUE ISLAND', and '101' are all character literals; 5001 is a numeric literal. Character literals are enclosed in single quotation marks so that Oracle can distinguish them
-from schema object names. This section contains these topics:
+**Literals**
 
 • Text Literals
 
