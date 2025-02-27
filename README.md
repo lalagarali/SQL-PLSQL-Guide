@@ -105,6 +105,19 @@ CREATE TABLE all_oracle_data_types (
 );
 ```
 
+**Data Type Comparison Rules**
+
+| **Implicit Conversion**     | **Explicit Conversion**                               |
+|------------------------------------------------------|------------------------------------------------------|
+| Automatic type conversion performed by Oracle.      | Manual type conversion explicitly defined by the user. |
+| Performed automatically by Oracle when necessary.    | Triggered by the user using conversion functions.     |
+| Example: `SELECT * FROM employees WHERE salary = '1000';` | Example: `SELECT * FROM employees WHERE salary = TO_NUMBER('1000');` |
+| No explicit functions needed.                        | Functions like `TO_NUMBER()`, `TO_DATE()`, `TO_CHAR()` are used. |
+| No user intervention required.                       | User must explicitly specify the conversion.         |
+| Occurs when Oracle detects a need for type compatibility. | Occurs when the user explicitly defines the conversion logic. |
+
+
+
 **Literals**
 
 • Text Literals
