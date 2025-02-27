@@ -131,6 +131,13 @@ CREATE TABLE all_oracle_data_types (
 | **c'...'**            | Character Literal Prefix | Used to define character-type literals. | `SELECT c'Mastercard' AS Card_Type FROM dual;` | `Mastercard` |
 
 • Numeric Literals
+
+| Symbol | Purpose | Example | Result |
+|--------|---------|---------|--------|
+| `E` or `e` | Scientific notation (exponential format) | `SELECT 1.2E3 FROM dual;` | `1200` |
+| `D` or `d` | 64-bit binary floating-point (`BINARY_DOUBLE`) | `SELECT CAST(3.14D AS BINARY_DOUBLE) FROM dual;` | `3.14` |
+| `F` or `f` | 32-bit binary floating-point (`BINARY_FLOAT`) | `SELECT CAST(3.14F AS BINARY_FLOAT) FROM dual;` | `3.14` |
+
 • Datetime Literals
 • Interval Literals 
 
